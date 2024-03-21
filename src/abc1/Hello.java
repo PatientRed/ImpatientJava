@@ -43,7 +43,6 @@ public class Hello {
             System.out.println(Arrays.toString(Ch1.eighteenth()));
     }
 
-
     public record Range(int from, int to) {
         public Range {
             if (from > to) {
